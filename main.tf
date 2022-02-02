@@ -1,4 +1,4 @@
-resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges" {
+resource "google_compute_subnetwork" "network-with-private-secondary-ip-ranges-test" {
   name          = "test-subnetwork"
   ip_cidr_range = "10.2.0.0/16"
   region        = "us-central1"
